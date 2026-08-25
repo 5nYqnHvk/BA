@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <title>Bad Apple!!</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { width: 100%; min-height: 100%; }
+    body {
+      margin: 0;
+      display: grid;
+      place-items: center;
+      min-height: 100vh;
+      overflow: hidden;
+      background: #fff;
+    }
+
+    #frame {
+      width: 100%;
+      overflow: auto;
+      margin: 0;
+      color: #000;
+      font: clamp(3px, 0.67vw, 8px)/1.02 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      letter-spacing: 0;
+      white-space: pre;
+      user-select: text;
+    }
+  </style>
+</head>
+<body>
+  <pre id="frame" aria-label="Bad Apple ASCII animation"></pre>
+  <script src="./srcipt.js"></script>
+</body>
+</html>
